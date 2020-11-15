@@ -1,4 +1,4 @@
-const clockContainer =document.querySelector("js-clock")
+const clockContainer =document.querySelector(".js-clock")
 const clockTitle = clockContainer.querySelector("h1")
 
 function getTime() {
@@ -6,7 +6,7 @@ function getTime() {
     const minutes = date.getMinutes();
     const hours = date.getHours();
     const seconds = date.getSeconds();
-    clockTitle.innerText = `$(hours):$(minutes):$(seconds)`;
+    clockTitle.innerText = `${hours}:${minutes}:${seconds}`;
 }
 
 function init() {
